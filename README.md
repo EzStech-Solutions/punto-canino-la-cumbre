@@ -2,6 +2,10 @@
 
 Sitio web creado por **[EzStech Solutions](https://github.com/EzStech-Solutions)** para Punto Canino La Cumbre (Floridablanca, Santander).
 
+Logo original (SVG): `brand/logo-punto-canino.svg`. Versiones web optimizadas en `img/logo*.webp`.
+
+Estado: **demo** con `noindex` (los buscadores no lo indexan). Al publicar la versión final, quitar la etiqueta `robots` de cada página.
+
 Sitio estático (HTML/CSS/JS, sin build). Para verlo en local: `python -m http.server 5173` y abrir http://localhost:5173.
 Necesita un servidor (no funciona abriendo el archivo con doble clic, por el archivo de íconos).
 
