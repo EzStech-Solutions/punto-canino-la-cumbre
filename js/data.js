@@ -19,6 +19,16 @@
 window.CONFIG = {
   whatsapp: "573244709898",   // código de país + número, sin "+" ni espacios
   phone: "+576076058796",
+  // Horario (día 0 = domingo). Cada tramo: [abre, cierra] en hora de Colombia, formato "HH:MM"
+  hours: {
+    0: [["08:00", "13:00"]],
+    1: [["07:30", "12:30"], ["14:30", "19:30"]],
+    2: [["07:30", "12:30"], ["14:30", "19:30"]],
+    3: [["07:30", "12:30"], ["14:30", "19:30"]],
+    4: [["07:30", "12:30"], ["14:30", "19:30"]],
+    5: [["07:30", "12:30"], ["14:30", "19:30"]],
+    6: [["07:30", "12:30"], ["14:30", "19:30"]]
+  },
   payments: false             // true cuando exista carrito y pasarela de pago
 };
 

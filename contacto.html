@@ -23,6 +23,7 @@
    "description":"Almacén veterinario: consulta, vacunación, laboratorio, baño y peluquería, concentrados y accesorios.",
    "telephone":["+573244709898","+576076058796"],
    "address":{"@type":"PostalAddress","streetAddress":"Cll 30 # 5E-07, La Cumbre","addressLocality":"Floridablanca","addressRegion":"Santander","postalCode":"681002","addressCountry":"CO"},
+   "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:30","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"14:30","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"13:00"}],
    "sameAs":["https://www.facebook.com/p/PUNTO-Canino-La-Cumbre-100064050334834/","https://www.instagram.com/punto_caninolacumbre/"]}
   </script>
 </head>
@@ -60,7 +61,11 @@
             <li><svg width="22" height="22" aria-hidden="true"><use href="icons.svg#i-pin"/></svg><span><strong>Dirección</strong><br>Cll 30 # 5E-07, La Cumbre, Floridablanca, Santander</span></li>
             <li><svg width="22" height="22" aria-hidden="true"><use href="icons.svg#i-wa"/></svg><span><strong>WhatsApp</strong><br><a href="#" data-wa="Hola, quiero información">324 470 9898</a></span></li>
             <li><svg width="22" height="22" aria-hidden="true"><use href="icons.svg#i-phone"/></svg><span><strong>Teléfono fijo</strong><br><a href="tel:+576076058796">(607) 605 8796</a></span></li>
-            <li><svg width="22" height="22" aria-hidden="true"><use href="icons.svg#i-clock"/></svg><span><strong>Horario</strong><br>Escríbenos por WhatsApp para confirmar horarios de atención.</span></li>
+            <li><svg width="22" height="22" aria-hidden="true"><use href="icons.svg#i-clock"/></svg><span><strong>Horario de atención</strong> <span class="open-now" data-open-now></span>
+              <table class="hours"><tbody>
+                <tr data-days="1,2,3,4,5,6"><th scope="row">Lunes a sábado</th><td>7:30 a. m. – 12:30 p. m.<br>2:30 p. m. – 7:30 p. m.</td></tr>
+                <tr data-days="0"><th scope="row">Domingo</th><td>8:00 a. m. – 1:00 p. m.</td></tr>
+              </tbody></table></span></li>
           </ul>
           <div class="cta-row">
             <a class="btn btn-cta" data-wa="Hola, quiero información" href="#"><svg width="20" height="20" aria-hidden="true"><use href="icons.svg#i-wa"/></svg> Escribir ahora</a>
@@ -84,7 +89,7 @@
         <a class="brand brand-light" href="index.html" aria-label="Punto Canino La Cumbre, inicio">
           <img class="brand-logo" src="img/logo-sm.webp" width="360" height="208" alt="Punto Canino La Cumbre">
         </a>
-        <p>Almacén veterinario · Cll 30 # 5E-07, La Cumbre, Floridablanca</p>
+        <p>Almacén veterinario · Cll 30 # 5E-07, La Cumbre, Floridablanca<br>Lun–Sáb 7:30–12:30 y 14:30–19:30 · Dom 8:00–13:00</p>
       </div>
       <nav class="foot-nav" aria-label="Pie de página">
         <a href="servicios.html">Servicios</a><a href="productos.html">Productos</a><a href="contacto.html">Contacto</a>
