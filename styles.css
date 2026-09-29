@@ -167,7 +167,7 @@ a { color: var(--primary); }
 .btn-white { background: #fff; color: var(--primary-dark); box-shadow: 0 6px 0 rgba(0,0,0,.2); }
 .social-line { margin-top: 1.4rem; font-weight: 600; }
 .foot-nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
-.foot-nav a { color: #ECFEFF; text-decoration: none; font-weight: 700; padding: .6rem 0; }
+.foot-nav a { color: var(--primary-dark); text-decoration: none; font-weight: 700; padding: .6rem 0; }
 .foot-nav a:hover { text-decoration: underline; }
 .menu a[aria-current="page"]:not(.btn) { color: var(--primary); box-shadow: 0 3px 0 var(--sun); }
 
@@ -179,15 +179,15 @@ a { color: var(--primary); }
 .map iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* Footer */
-.site-footer { background: var(--primary-dark); color: #ECFEFF; padding: 2.5rem 0 1.5rem; }
+.site-footer { background: var(--alt); color: var(--fg); padding: 2.5rem 0 1.5rem; border-top: 3px solid var(--border); }
 .foot { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between; align-items: center; }
 .site-footer p { margin: .8rem 0 0; }
 .brand-light { color: #fff; }
 
 .social { display: flex; gap: .8rem; }
-.social a { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 16px; background: rgba(255,255,255,.14); color: #fff; transition: background-color .2s, transform .2s; }
-.social a:hover { background: rgba(255,255,255,.28); transform: translateY(-2px); }
-.copy { width: min(1120px, 100% - 2rem); margin: 1.8rem auto 0 !important; padding-top: 1.2rem; border-top: 1px solid rgba(255,255,255,.2); font-size: .9rem; opacity: .85; }
+.social a { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 16px; background: #fff; color: var(--primary); box-shadow: var(--shadow); transition: background-color .2s, transform .2s; }
+.social a:hover { background: var(--border); transform: translateY(-2px); }
+.copy { width: min(1120px, 100% - 2rem); margin: 1.8rem auto 0 !important; padding-top: 1.2rem; border-top: 1px solid var(--border); font-size: .9rem; color: var(--muted-fg); }
 
 /* WhatsApp flotante */
 .wa-float { position: fixed; right: 18px; bottom: 18px; z-index: 60; width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center; background: #128C4A; color: #fff; box-shadow: 0 6px 0 #0B6B37, 0 12px 24px rgba(0,0,0,.25); transition: transform .2s; }
@@ -220,11 +220,10 @@ a { color: var(--primary); }
 }
 
 .lab-photo { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; object-position: center 40%; border-radius: var(--radius); border: 4px solid #fff; box-shadow: var(--shadow); }
-.copy a { color: #fff; font-weight: 700; }
+.copy a { color: var(--primary-dark); font-weight: 700; }
 
 /* Logo */
 .brand-logo { display: block; height: 62px; width: auto; }
-.site-header { background: rgba(255,255,255,.94); }
-.brand-light { background: #fff; padding: .5rem .9rem; border-radius: 18px; box-shadow: var(--shadow); }
-.brand-light .brand-logo { height: 64px; }
+.site-header { background: rgba(240,253,250,.92); }
+.brand-light .brand-logo { height: 76px; }
 @media (max-width: 480px) { .brand-logo { height: 46px; } }
