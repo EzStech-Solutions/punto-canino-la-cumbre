@@ -1,6 +1,6 @@
 # Punto Canino La Cumbre — sitio web
 
-Sitio web creado por **[EzStech Solutions](https://github.com/EzStech-Solutions)** para Punto Canino La Cumbre (Floridablanca, Santander).
+Sitio web creado por **[EzStech Solutions](https://ezstech-solutions.netlify.app/)** para Punto Canino La Cumbre (Floridablanca, Santander).
 
 Logo original (SVG): `brand/logo-punto-canino.svg`. Versiones web optimizadas en `img/logo*.webp`.
 
